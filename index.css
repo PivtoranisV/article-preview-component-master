@@ -19,6 +19,10 @@ body {
     min-height: 100vh;
 }
 
+ul {
+    list-style-type: none;
+}
+
 .content__img {
     display: block;
     margin: auto;
@@ -73,8 +77,11 @@ body {
 
 .user__share {
     background-color: hsl(210, 46%, 95%);
-    padding: 0.9rem;
+    padding: 0.8rem;
     border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
 .share {
@@ -82,7 +89,12 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 1rem;
+}
 
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .attribution {
