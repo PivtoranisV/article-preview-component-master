@@ -75,7 +75,8 @@ ul {
     margin-top: 0.3rem;
 }
 
-.user__share {
+.user__share,
+.share__icon-share {
     background-color: hsl(210, 46%, 95%);
     padding: 0.8rem;
     border-radius: 50%;
@@ -88,13 +89,23 @@ ul {
     background-color: hsl(217, 19%, 35%);
     display: flex;
     justify-content: space-between;
-    padding: 1rem;
+    padding: 1rem 2.5rem;
 }
 
 .icons {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+}
+
+.share__h3 {
+    color: hsl(212, 23%, 69%);
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    margin-right: 1.4rem;
+}
+
+.icons div {
+    padding: 0rem 0.5rem;
 }
 
 .attribution {
