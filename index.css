@@ -33,10 +33,11 @@ ul {
 
 .content {
     background-color: white;
-    padding: 3rem 2.5rem;
+    padding: 3rem 2.5rem 1.3rem 2.5rem;
     border-radius: 0 0 15px 15px;
     color: hsl(217, 19%, 35%);
     max-width: 450px;
+    position: relative;
 }
 
 .content__h1 {
@@ -54,6 +55,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
+
 }
 
 .user__info {
@@ -90,6 +92,7 @@ ul {
     display: flex;
     justify-content: space-between;
     padding: 1rem 2.5rem;
+    border-radius: 0 0 15px 15px
 }
 
 .icons {
@@ -106,6 +109,13 @@ ul {
 
 .icons div {
     padding: 0rem 0.5rem;
+}
+
+.absolute {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
 }
 
 .attribution {
