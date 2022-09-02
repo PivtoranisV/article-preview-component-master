@@ -41,6 +41,12 @@ ul {
     position: relative;
 }
 
+@media (min-width: 768px) {
+    .content {
+        width: 100%;
+    }
+}
+
 .content__h1 {
     margin-bottom: 1rem;
 
@@ -127,6 +133,14 @@ ul {
     margin-top: 1rem;
     font-size: 11px;
     text-align: center;
+}
+
+@media (min-width: 768px) {
+    .container {
+        display: flex;
+        flex-direction: row;
+        max-width: 900px;
+    }
 }
 
 .attribution a {
