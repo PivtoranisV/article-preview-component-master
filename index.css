@@ -32,6 +32,13 @@ ul {
     height: 300px;
 }
 
+@media (min-width: 768px) {
+    .content__img {
+        border-radius: 15px 0 0 15px;
+        height: 413px;
+    }
+}
+
 .content {
     background-color: white;
     padding: 3rem 2.5rem 1.3rem 2.5rem;
@@ -125,6 +132,24 @@ ul {
     bottom: 0;
 }
 
+@media (min-width: 768px) {
+    .absolute {
+        left: 45%;
+        bottom: 25%;
+        width: 300px;
+
+    }
+
+    .share {
+        border-radius: 15px;
+        padding: 0.5rem 2.5rem;
+    }
+
+    .share__icon-close {
+        display: none;
+    }
+}
+
 .hidden {
     display: none;
 }
@@ -138,8 +163,9 @@ ul {
 @media (min-width: 768px) {
     .container {
         display: flex;
-        flex-direction: row;
-        max-width: 900px;
+        align-items: center;
+        justify-content: center;
+        max-width: 850px;
     }
 }
 

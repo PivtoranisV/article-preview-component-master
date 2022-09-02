@@ -4,7 +4,7 @@ const shareWindow = document.querySelector(".absolute");
 const avatarWindow = document.querySelector(".user");
 
 shareOpen.addEventListener("click", () => {
-  shareWindow.classList.remove("hidden");
+  shareWindow.classList.toggle("hidden");
 });
 
 shareClose.addEventListener("click", () => {
